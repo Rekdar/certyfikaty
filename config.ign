@@ -1,0 +1,32 @@
+{
+  "ignition": {
+    "config": {
+      "replace": {
+        "source": null,
+        "verification": {}
+      }
+    },
+    "security": {
+      "tls": {}
+    },
+    "timeouts": {},
+    "version": "3.0.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "groups": [
+          "sudo",
+          "docker"
+        ],
+        "name": "k8",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsPr92shAXYkOLYxOdmpLW3ZzbZ/NvvPW6yc6U2IXZWeIVWMJcxgzRyNiLTFIVKu/gv743iOmDxmfisQxUCadeIOR106AvFuxRJaKD7HfF8tpscLa3PWWXbDCToOJDiPhu8H9weFdEeS/ZEH/Sqfm9iOKEHnWWXYdptxGbjhfu87t00DlzenabKU6YEWSqaw+0GW95spijob6OHRb43xExchlkrxW3WAYJZtNExQ6/zJGQGyB2PxMjJ95MLJeypmZtH3ig1AuoDlLgJ/Fg0CK5MThU8N8lSVfqdAOb94J81K/hlp3uM6D6PJsjA6pvr7L2dp3/IcSXGyf9QzUNFncj bisa@hostdp01"
+ ],
+        "shell": "/bin/bash"
+      }
+    ]
+  },
+  "storage": {},
+  "systemd": {}
+}
